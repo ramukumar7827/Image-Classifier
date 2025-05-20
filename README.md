@@ -1,16 +1,33 @@
-# imageclassifier
+# 📷 Flutter Image Classifier App
 
-A new Flutter project.
+## 🚀 Overview
+This is a **Flutter-based image classification app** that integrates a **TensorFlow Lite model** to classify images using the **CIFAR-10 dataset**. Users can select an image from **Gallery or Camera**, and the app will predict the category using **deep learning**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠 Features
+- ✅ **TensorFlow Lite Integration** for real-time image classification
+- ✅ **CNN-Based Model** trained on CIFAR-10 for accurate predictions
+- ✅ **Smooth UI with Image Preview & Buttons**
+- ✅ **Progress Bar Indicator** while processing images
+- ✅ **Optimized for Mobile Deployment**
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📌 Dependencies
+Install required packages before running:
+```bash
+flutter pub add tflite_flutter image_picker image
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📦 flutter-image-classifier
+ ┣ assets
+ ┃ ┣ 📜 image_classifier.tflite  # TensorFlow Lite Model
+ ┣ 📂 lib
+ ┃ ┣ 📜 main.dart                # Main Flutter Code
+ ┣ 📜 pubspec.yaml               # Flutter dependencies & assets
+ ┣ 📜 README.md                   # Project Documentation
+
+flutter pub get
+flutter run
+
+
